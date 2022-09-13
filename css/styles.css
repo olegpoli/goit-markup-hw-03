@@ -1,7 +1,7 @@
 /* Головна сторінка Студія */
-/* шапка сайту --color-background-top-line: #FFFFFF; */ 
+/* шапка сайту */ 
 :root { 
-  --color-background-top-line: #34ff01;
+  --color-background-top-line: #FFFFFF; 
   --color-background-hero: #2F303A;
   --color-background-feature-list: #ffffff  ;
   --color-background-photo-robota: #F5F5F5  ;
