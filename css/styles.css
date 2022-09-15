@@ -30,6 +30,39 @@
   --color-text-filter-but : #212121;
   --color-accent-text-filter-but : #FFFFFF;
  }
+
+ .header-container { display: flex; 
+  align-items: center; }
+ .logo { margin-right: 93px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  align-items: center;
+
+ }
+
+ .header-nav {display: flex;  
+  margin-right: auto; }
+
+.site-navigation { 
+  display: flex;
+   gap: 52px; }
+
+
+
+
+ .container, .container-photo { 
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+
+
+  outline: 2px solid red;
+  outline-offset: -2px;
+  }
+  /* flex-wrap: wrap; дозволяє елементам переноситися на інший рядок */
+  
 body { 
     color: var(--color-text-paragraph);
   font-family: 'Roboto', sans-serif; 
@@ -76,6 +109,12 @@ letter-spacing: 0.03em;
       font-size: 14px;
       line-height: 1.14;
       letter-spacing: 0.02em;
+      padding-top: 32px;
+      padding-bottom: 32px;
+      display: block;
+
+
+
        }
        /*  */
 .site-navigation .linky {   
@@ -130,7 +169,7 @@ letter-spacing: 0.03em;
   
  
   /* ховаю заголовок (наші особливості) */
-  .feature-list > h2 {font-size: 0px; }
+  .feature-list-h2 {font-size: 0px; }
   /* колір заголовків.. а колір тексту визначається як основний на сторінці */
   .list.title h3 {color:var(--color-text-title) ;
     font-style: normal;
@@ -139,6 +178,22 @@ letter-spacing: 0.03em;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase; }
+    
+    .container-feature-list{ 
+      display: flex;
+    padding-top: 10px;
+   padding-bottom: 10px; 
+   
+    }
+
+
+    .container-photo-robota { 
+      display: flex;
+    padding-top: 55px;
+   padding-bottom: 94px;
+   gap: 30px;
+   
+    }
 
  
   .photo-robota h2  { color: var(--color-text-title);
@@ -149,6 +204,9 @@ letter-spacing: 0.03em;
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em; }
+
+    .photo-robota-list { display: flex; }
+
  
 /* наша команда фотографії працівників */
 
@@ -176,6 +234,10 @@ letter-spacing: 0.03em;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em; } 
+
+  .container-our-team {
+     display: flex; 
+   gap: 30px; }
 
 
   /* підвал футер */

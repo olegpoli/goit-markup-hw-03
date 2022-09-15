@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Студія</title>
+    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -13,7 +14,9 @@
 <body class="page-studia" >    
     <!--шапка сайту-->
     <header>
-<nav>
+        <div class="container header-container" > 
+<nav class="header-nav" >
+     
     <a href="/" class="logo" > <span class="logo-web" >Web</span>Studio</a>
     <ul class="site-navigation list" > 
         <li><a href="./index.html" class="link current">Студія</a></li>
@@ -27,50 +30,57 @@
 <ul class="site-navigation list ">
     <li><a href="mailto:info@devstudio.com" class="link linky">info@devstudio.com</a></li>
     <li><a href="tel:+380961111111" class="link linky">+38 096 111 11 11</a></li>
-</ul>
-    </header>
+</ul> 
+</div>
+    </header> 
     <!--Рішення для бізнесу hero -->
     <main>
     <section class="hero" >
+        <div class="container" > 
         <h1> ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ </h1>
        <button type="button"  class="button" > Замовити послугу </button>
+       </div>
     </section>
     <!--увага до деталей пунктуальність-->
         <section class="feature-list" >
+            <div class="container container-feature-list" > 
              <!--заголовок <h2>Наші особливості</h2> в CSS заховати щоб не було видно -->
-            <h2>Наші особливості</h2>
-            <ul class="list title">
+            <h2 class="feature-list-h2" >Наші особливості</h2>
+            <ul class="list title container-feature-list">
                 <li> <h3> УВАГА ДО ДЕТАЛЕЙ </h3> <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p> </li>
                 <li> <h3>ПУНКТУАЛЬНІСТЬ</h3> <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе. </p>  </li>
                 <li> <h3>ПЛАНУВАННЯ</h3> <p>Так само консультація з широким активом значною мірою зумовлює. </p>  </li>
                 <li> <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3> <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань. </p>  </li>
-            </ul>
+            </ul> </div>
                    </section>
     <!--чим займаємося-->
     <section class="photo-robota"> 
+        <div class="container" > 
          <h2>Чим ми займаємося</h2>
-         <ul class="list" > 
+         <ul class="list container-photo-robota" > 
              <li> <img src="./images/box_1.jpg" alt="photo_box_1" width="370" height="294" > </li>
              <li> <img src="./images/box_2.jpg" alt="photo_box_2" width="370" height="294" > </li>
              <li> <img src="./images/box_3.jpg" alt="photo_box_3" width="370" height="294" > </li>
              
-         </ul>
+         </ul> </div>
     </section>
     <!--наша команда-->
   
     <section class="our-team" > 
+        <div class="container" > 
         <h2>Наша команда</h2>
-        <ul class="list" > 
+        <ul class="list container-our-team " > 
             <li> <img src="./images/team_card_1.jpg" alt="photo_team_card_1" width="270" height="260" > <h3>Ігор Дем'яненко</h3> <p>Product Designer</p> </li>
             <li> <img src="./images/team_card_2.jpg" alt="photo_team_card_2" width="270" height="260" > <h3>Ольга Рєпіна</h3> <p>Frontend Developer</p> </li>
             <li> <img src="./images/team_card_3.jpg" alt="photo_team_card_3" width="270" height="260" > <h3>Микола Тарасов</h3> <p>Marketing</p>  </li>
             <li> <img src="./images/team_card_4.jpg" alt="photo_team_card_4" width="270" height="260" > <h3>Михайло Єрмаков</h3> <p>UI Designer</p>  </li>
    
-        </ul>
+        </ul> </div>
    </section>
    </main>
    <!--футер підвал-->
 <footer  class="basement" > 
+    <div class="container" > 
     <a href="/" class="logofut-stud" > <span class="logo-wais-web" >Web</span>Studio</a>
     <address> 
     <ul class="list" >
@@ -78,7 +88,7 @@
         <li><a href="mailto:info@devstudio.com" class="link adresa">info@devstudio.com</a></li>
         <li><a href="tel:+380961111111" class="link adresa" >+38 096 111 11 11</a></li>
        
-    </ul>
+    </ul> </div>
     </address>
 
 </footer>
