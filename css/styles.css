@@ -31,9 +31,22 @@
   --color-accent-text-filter-but : #FFFFFF;
  }
 
+ /* h1, h2, h3, ul, p, { 
+   margin-top: auto;    
+  margin-bottom: auto; } */
+
+  .list { 
+    margin-top: auto;    
+    margin-bottom: auto; 
+   }
+
+
+
  .header-container { display: flex; 
   align-items: center; }
- .logo { margin-right: 93px;
+ .logo {
+   display: flex;  
+  margin-right: 93px;
   padding-top: 32px;
   padding-bottom: 32px;
   align-items: center;
@@ -50,7 +63,7 @@
 
 
 
- .container, .container-photo { 
+ .container { 
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -134,15 +147,24 @@ letter-spacing: 0.03em;
 
   .hero { 
     background-color:var(--color-background-hero); 
+  
   }
+ 
   .hero h1 { 
       color:var(--color-text-hero) ; 
     font-weight: 900;
    font-size: 44px;
    line-height: 1.36;    
    text-align: center;
-   letter-spacing: 0.06em;
-   text-transform: uppercase;  }
+     letter-spacing: 0.06em;
+   text-transform: uppercase; 
+   
+  width: 696px;
+height: 120px; 
+margin-top: auto;
+padding-top: 200px;
+padding-left: 266px;
+}
 
 
  
@@ -156,10 +178,25 @@ letter-spacing: 0.03em;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87; 
-  display: flex;
+  border-radius: 4px;
   align-items: center;
   text-align: center;
-  letter-spacing: 0.06em;   }
+border-color: var(--color-primary-background-button) ;
+  letter-spacing: 0.06em;
+ 
+width: 216px;
+height: 60px;
+
+
+
+}
+
+.container-button { 
+  display: flex;
+  /* padding-left: 492px; */
+  margin-left: 500px;
+ 
+  padding-bottom: 200px;}
 
 .button:hover,
 .button:focus {
@@ -169,7 +206,9 @@ letter-spacing: 0.03em;
   
  
   /* ховаю заголовок (наші особливості) */
-  .feature-list-h2 {font-size: 0px; }
+  .feature-list-h2 {font-size: 0px; 
+   
+     }
   /* колір заголовків.. а колір тексту визначається як основний на сторінці */
   .list.title h3 {color:var(--color-text-title) ;
     font-style: normal;
@@ -181,17 +220,27 @@ letter-spacing: 0.03em;
     
     .container-feature-list{ 
       display: flex;
-    padding-top: 10px;
-   padding-bottom: 10px; 
+    padding-top: 47px;
+    padding-bottom: 47px; 
+   gap: 30px;
+   margin-top: auto;
+   margin-bottom: auto;
    
+   padding-left: 0px;
+   justify-content: center;
     }
 
-
+    
     .container-photo-robota { 
       display: flex;
-    padding-top: 55px;
+      /* padding-top: 55px; */
    padding-bottom: 94px;
    gap: 30px;
+   margin-bottom: auto;
+   padding-left: 0px;
+   justify-content: center;
+   
+   
    
     }
 
@@ -203,9 +252,16 @@ letter-spacing: 0.03em;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
-    letter-spacing: 0.03em; }
+    letter-spacing: 0.03em; 
+    margin-top: auto;
+    
+    margin-bottom: auto;
+    
+    padding-bottom: 50px;
+    
+  }
 
-    .photo-robota-list { display: flex; }
+  
 
  
 /* наша команда фотографії працівників */
@@ -218,6 +274,11 @@ letter-spacing: 0.03em;
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 94px;
+    padding-bottom: 50px;
+
   }   
   .our-team .list h3 { color:var(--color-text-title); 
     font-style: normal;
@@ -225,7 +286,9 @@ letter-spacing: 0.03em;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    letter-spacing: 0.03em; } 
+    letter-spacing: 0.03em;
+     
+   } 
     
 .our-team .list p { 
   font-style: normal;
@@ -233,11 +296,18 @@ letter-spacing: 0.03em;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em; } 
+  letter-spacing: 0.03em; 
+padding-bottom: 154px;
+} 
 
   .container-our-team {
      display: flex; 
-   gap: 30px; }
+   gap: 30px;
+  margin-top: auto;
+  margin-bottom: auto;
+  justify-content: center;
+  padding-left: 0px;
+  }
 
 
   /* підвал футер */
@@ -247,18 +317,32 @@ letter-spacing: 0.03em;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 0.03em; }
+    letter-spacing: 0.03em; 
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    
+  }
 
   .logo-wais-web { color:var(--color-logo-web-footer); }
 
-  .basement {background-color:var(--color-background-footer-basement); }
+  .basement { 
+    background-color:var(--color-background-footer-basement);
+   }
+  
 
 .adresa, .adre { 
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em; }
+  letter-spacing: 0.03em;
+  display: flex;
+  margin-left: -40px;
+
+
+
+}
 
   .adresa {color:var(--color-primary-contact-Information-footer) ;
     font-style: normal; }
@@ -298,7 +382,21 @@ letter-spacing: 0.03em;
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
-   }
+    border-radius: 4px;
+    border-color: var(--color-background-filter-but)  ;
+   width: 103px;
+   height:38px;
+
+  }
+   .container-filters { 
+    display: flex;
+    gap: 10px;
+    padding-top: 94px;
+    padding-bottom: 50px;
+    justify-content: center;
+     
+    
+    }
 
    .filter-but:hover,
    .filter-but:focus {  
@@ -317,6 +415,9 @@ letter-spacing: 0.03em;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  padding-left: 24px;
+  margin-top: 20px;
+  margin-bottom: auto;
    }
 .projects p { color: var(--color-text-paragraph) ; 
   font-family: 'Roboto';
@@ -324,7 +425,19 @@ letter-spacing: 0.03em;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
-  letter-spacing: 0.03em; }
+  letter-spacing: 0.03em; 
+  padding-left: 24px;
+  margin-top: auto;
+  margin-bottom: 20px;
+  }
+
+  .container-photo {
+   display: flex; 
+   gap: 30px;
+   padding-left: 0px;
+   flex-wrap: wrap;
+   justify-content: center;
+  }
      
 
 
