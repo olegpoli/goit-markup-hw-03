@@ -32,9 +32,6 @@
   --color-accent-text-filter-but : #FFFFFF;
  }
 
- /* h1, h2, h3, ul, p, { 
-   margin-top: auto;    
-  margin-bottom: auto; } */
 
   ul, p, h1, h2, h3 { 
     padding: 0;
@@ -80,8 +77,8 @@
   margin-right: auto;
 
 
-  outline: 2px solid red;
-  outline-offset: -2px;
+  /* outline: 2px solid red;
+  outline-offset: -2px; */
   }
   /* flex-wrap: wrap; дозволяє елементам переноситися на інший рядок */
   
@@ -110,20 +107,7 @@ letter-spacing: 0.03em;
  a { text-decoration: none; }
 
 
- /* 
- .page-studia  основний фон сторінки
- .link оформлення для всіх ссилок на ньому кольори, ховер, фокус і курент
- .site-navigation клас списків навігації
- .list  клас списків навігації. скидання всіх крапок в ненумерованих списках 
- .link.current  примусове підсвічування ссилки щоб знати на якій я сторінці знаходжуся
-.hero клас для секції в ньому темний фон
-.feature-list для фону секції. наші особливості, блоки тексту. 
-.title колір заголовків і тексту в секції наші особливості
-.photo-robota фон для секції із фото компютери
-.our-team фон секції наша команда із фотками працівників
-.basement підвал темний фон футера
-.adresa колір ссилок у футері
- */
+ 
 
     .site-navigation .link {
       color: var(--color-primary-menu-nav); 
@@ -158,15 +142,8 @@ letter-spacing: 0.03em;
     background-color:var(--color-background-hero); 
     padding-top: 200px;
     padding-bottom: 200px;
-
-    
     text-align: center;
-   
-
-
-
-  
-  }
+     }
  
   .hero h1 { 
       color:var(--color-text-hero) ; 
@@ -179,17 +156,9 @@ letter-spacing: 0.03em;
    
   width: 696px;
   margin: 0 auto 30px;
-/* height: 120px; 
-margin-top: auto;
-padding-top: 200px;
-padding-left: 266px; */
-
-
 }
 
 
- 
-  
 .button { 
   color:var(--color-button-text) ;
   background-color:var(--color-primary-background-button) ; 
@@ -204,25 +173,13 @@ padding-left: 266px; */
 border-color: var(--color-primary-background-button) ;
   letter-spacing: 0.06em;
  padding: 10px 32px;
-
-  /* width: 216px;
-height: 60px;
-align-items: center;
-text-align: center; */
-
-
 }
 
 .container-button { 
-
-
   /* display: flex; */
   /* padding-left: 492px; */
   /* margin-left: 500px;
- 
-  padding-bottom: 200px; */
-
-
+   padding-bottom: 200px; */
 }
 
 .button:hover,
@@ -230,11 +187,8 @@ text-align: center; */
   color:   var(--color-accent-text-button);
   background-color: var(--color-accent-background-button);}
 
-  
- 
   /* ховаю заголовок (наші особливості) */
   .feature-list-h2 {font-size: 0px; 
-   
      }
 
      .pravylo { flex-basis: calc((100%-30px-30px-30px)/4); }
@@ -251,28 +205,11 @@ text-align: center; */
     .container-feature-list{ 
       display: flex;
       gap: 30px;
-
-    /* padding-top: 47px;
-    padding-bottom: 47px;  */
-  
-   /* margin-top: auto;
-   margin-bottom: auto;
-   
-   padding-left: 0px;
-   justify-content: center; */
     }
 
-    
     .container-photo-robota { 
       display: flex;
       gap: 30px;
-
-
-   /* margin-bottom: auto;
-   padding-left: 0px; */
-   /* padding-top: 55px; */
-   /*
-   padding-bottom: 94px; */
    justify-content: center;
     }
 
@@ -294,8 +231,6 @@ text-align: center; */
     letter-spacing: 0.03em; 
     margin-top: auto;
     
-    
-    
     margin-bottom: 50px;
     
   }
@@ -315,7 +250,6 @@ text-align: center; */
     letter-spacing: 0.03em;
     margin-top: auto;
     margin-bottom: auto;
-    /* padding-top: 94px; */
     margin-bottom: 50px;
 
   }   
@@ -336,7 +270,7 @@ text-align: center; */
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em; 
-/* padding-bottom: 154px; */
+
 } 
 
 .our-h3  { padding-top: 30px;
@@ -345,10 +279,7 @@ margin-bottom: 10px; }
   .container-our-team {
      display: flex; 
    gap: 30px;
-  /* margin-top: auto;
-  margin-bottom: auto; */
   justify-content: center;
-  /* padding-left: 0px; */
   }
 
   .container-our-team li { background-color: var(--background-color-our-team-li) ; }
@@ -363,10 +294,8 @@ margin-bottom: 10px; }
     line-height: 1.19;
     letter-spacing: 0.03em; 
     display: block;
-    /* padding-top: 60px; */
-    margin-bottom: 20px;
-    
-  }
+      margin-bottom: 20px;
+      }
 
   .logo-wais-web { color:var(--color-logo-web-footer); }
 
@@ -382,32 +311,20 @@ margin-bottom: 10px; }
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  /* display: flex;
-  margin-left: -40px; */
-
-
-
 }
 
   .adresa {color:var(--color-primary-contact-Information-footer) ;
     font-style: normal; }
   
-
   .adresa:hover,
   .adresa:focus { color:var(--color-accent-contact-Information-footer) ; }
-
   .adre { color:var(--color-text-map); 
   font-style: normal; }
   .adre:hover,
   .adre:focus { color:var(--color-accent-contact-Information-footer) ; }
 
   .address-li { padding-bottom: 9px; }
-
-
-
 .address-li-tel { padding-bottom: 60px; }
-
-
 
 
 
@@ -431,25 +348,26 @@ margin-bottom: 10px; }
     text-align: center;
     letter-spacing: 0.03em;
     border-radius: 4px;
-    border-color: var(--color-background-filter-but)  ;
-   width: 103px;
-   height:38px;
 
-  }
+    border-style: none;
+    padding: 6px 22px;
+  }  
+  .filters{ 
+    padding-top: 94px; 
+    margin-bottom: 50px; }
+
    .container-filters { 
     display: flex;
     gap: 10px;
-    padding-top: 94px;
-    padding-bottom: 50px;
+    margin-bottom: 50px; 
     justify-content: center;
-     
-    
     }
 
    .filter-but:hover,
    .filter-but:focus {  
     color: var( --color-accent-text-filter-but) ;
-    background-color: var(--color-accent-background-filter-but) ; }
+    background-color: var(--color-accent-background-filter-but) ;
+  }
 
     /* секція із фотографіями */
 /* ховаю заголовок h1 */
@@ -464,8 +382,7 @@ margin-bottom: 10px; }
   line-height: 2;
   letter-spacing: 0.06em;
   padding-left: 24px;
-  margin-top: 20px;
-  margin-bottom: auto;
+   margin-bottom: auto;
    }
 .projects p { color: var(--color-text-paragraph) ; 
   font-family: 'Roboto';
@@ -479,6 +396,17 @@ margin-bottom: 10px; }
   margin-bottom: 20px;
   }
 
+  .photo-h2{ 
+    padding-top:20px ;
+    padding-left:24px ;
+    margin-bottom: 4px;
+    
+   }
+  .photo-p{  
+    padding-left:24px ; 
+    margin-bottom: 20px;
+  }
+ 
   .container-photo {
    display: flex; 
    gap: 30px;
