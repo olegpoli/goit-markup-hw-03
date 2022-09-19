@@ -32,7 +32,10 @@
   --color-text-filter-but : #212121;
   --color-accent-text-filter-but : #FFFFFF;
  }
-
+img { 
+   display: block;
+    width: 100%; 
+    height: auto;  }
 
   ul, p, h1, h2, h3 { 
     padding: 0;
@@ -329,7 +332,7 @@ margin-bottom: 10px; }
   .adre:focus { color:var(--color-accent-contact-Information-footer) ; }
 
   .address-li { margin-bottom: 9px; }
-.address-li-tel { margin-bottom: 60px; }
+/* .address-li-tel { margin-bottom: 60px; } */
 
 
 
@@ -386,7 +389,7 @@ margin-bottom: 10px; }
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  padding-left: 24px;
+  /* padding-left: 24px; */
    margin-bottom: auto;
    }
 .projects p { color: var(--color-text-paragraph) ; 
@@ -396,7 +399,7 @@ margin-bottom: 10px; }
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em; 
-  padding-left: 24px;
+  /* padding-left: 24px; */
   margin-top: auto;
   margin-bottom: 20px;
   }
